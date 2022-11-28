@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid bg-light">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top p-1 border-bottom border-dark">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo sementara.png" width="70" height="40" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/merch 1.png" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item active">
+                    <img src="image/kaos prostreet.png" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item active">
+                    <img src="image/merch 2.png" class="d-block w-100" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        <div class="container">
+            <h3 class="text-black text-center mt-5">Produk kami</h3>
+            <div class="product mt-5">
+                <div class="row justify-content-center">
+                    <div class="card-group">
+
+                        <div class="card mt-4">
+                            <h5 class="card-tittle text-center">Baju Prostreet</h5>
+                            <img src="image/kaos prostreet.png" width="260px" height="260px" alt="" class="ms-auto">
+                            <div class="card-body">
+                                <pm class="mb-5">
+                                    BAJU SUNMORI
+                                </pm>
+                            </div>
+                            <div class="card-footer">
+                                <h5>IDR 150.000</h5>
+                                <a href="#" class="btn btn-primary">Buy Now!</a>
+                            </div>
+                        </div>
+
+                        <div class="card mt-4">
+                            <h5 class="card-tittle text-center">Kaos tulisan jepang</h5>
+                            <img src="image/merch 1.png" width="260px" height="260px" class="ms-auto" alt="">
+                            <div class="card-boddy">
+                                <p class="mb-5">
+                                    BAJU JEPANG PUTIH
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <h5>IDR 50.000</h5>
+                                <a href="#" class="btn btn-primary">Buy Now!</a>
+                            </div>
+                        </div>
+
+                        <div class="card mt-4">
+                            <h5 class="card-tittle text-center">kaos tulisan jepang hitam</h5>
+                            <img src="image/merch 2.png" alt="">
+                            <div class="card-boddy">
+                                <p class="mb-5">
+                                    BAJU JEPANG HITAM
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <h5>IDR 60.000</h5>
+                                <a href="#" class="btn btn-primary">Buy Now!</a>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <h5 class="card-tittle text-center">baju jepang hitam versi kaos panjang</h5>
+                            <img src="image/merch 3.png" alt="">
+                            <div class="card-body">
+                                <p class="mb-5">
+                                    BAJU JEPANG KAOS PANJANG
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <h5>IDR 70.000</h5>
+                                <a href="#" class="btn btn-primary">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-subscriber text-dark">
+                <div class="form-kirim mb-3 mt-4">
+                    <label class="form-label" for="">email anda:</label>
+                    <input class="font-control" type="email" placeholder="Masukkan email anda">
+                </div>
+                <div class="form-kirim mb-4">
+                    <button type="submit" class="btn btn-primary">Send!</button>
+                </div>
+            </div>
+        </div>
+        <footer class="row align-item-start bg-dark border-top border-light">
+            <div class="col text-light p-3">
+                <h5 class="text-uppercase mb-4">Contact</h5>
+                <ul class="list-unstyled mb-4">
+                    <li>tel 89231451784</li>
+                    <li>yuti.nime123@gmail.com</li>
+                </ul>
+            </div>
+    
+            <div class="col text-light p-3">
+                <h5 class="text-uppercase mb-4">peta lokasi</h5>
+                <p>
+                    MITRA BAJU JL.A.YANI NO 3455 SURABAYA JAWA TIMUR
+                </p>
+            </div>
+    
+            <div class="text-center text-light p-2 border-top border-light">
+                2022 Coppyright. BarCODE
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

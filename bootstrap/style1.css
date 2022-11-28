@@ -1,0 +1,57 @@
+.carousel-item img{
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+    background-image:url(image/background\ anime.jpg);
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.jumbotron{
+    padding: 0,5rem;
+    background: black;
+}
+.card img{
+    height: 200px;
+    width: 230px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+    width: 250px;
+    margin: auto;
+    float: left;
+}
+.h1{
+    color: black;
+}
+p{
+    color: black;
+}
+.container-1{
+    
+    margin-left: 50px;
+}
+.row img{
+    width: 350px;
+}
+@media(min-width:560px){
+    .carousel-item img{
+        height: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container-1{
+    
+        margin-left: 180px;
+    }
+    .row img{
+        width: 300px;
+    }
+}
